@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let veg = new Map([
+        ["tomato", "100"],
+        ["potato", "80"],
+        ["gad", "50"],
+      ]);
+      for (let vege of veg.keys()) {
+        document.write(vege);
+      }
+      for (let amount of veg.values()) {
+        document.write(amount);
+      }
+    </script>
+  </body>
+</html>
