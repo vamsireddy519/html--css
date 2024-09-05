@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>External Link Example</title>
+</head>
+<body>
+
+<!-- External link that opens in a new tab -->
+<a href="https://www.example.com" target="_blank">Visit Example.com</a>
+
+</body>
+</html>
